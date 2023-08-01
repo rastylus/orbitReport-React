@@ -50,8 +50,8 @@
         </tr>
         </thead>
         <tbody>
-        <tr key={sat[0].id}>
-          <td>{ sat[0].name }</td>
+        <tr key={sat.id}>
+          <td>{ sat.name }</td>
           <td>{ sat[0].type }</td>
           <td>{ sat[0].launchDate }</td>
           {/* <td>{ JSON.stringify(sat[0].operational)}</td> */}
